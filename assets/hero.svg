@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="330" viewBox="0 0 1200 330" role="img" aria-labelledby="title desc">
+  <title id="title">Sujair Ibrahim — building useful intelligence</title>
+  <desc id="desc">Dark indigo banner with a glowing network of connected nodes and a clean typographic introduction.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0B1020"/>
+      <stop offset="0.55" stop-color="#111A33"/>
+      <stop offset="1" stop-color="#082C36"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#6EE7F9"/>
+      <stop offset="1" stop-color="#A5B4FC"/>
+    </linearGradient>
+    <radialGradient id="glow">
+      <stop offset="0" stop-color="#2DD4BF" stop-opacity="0.28"/>
+      <stop offset="1" stop-color="#2DD4BF" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="dots" width="28" height="28" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r="1" fill="#93C5FD" opacity="0.12"/>
+    </pattern>
+    <clipPath id="rounded"><rect width="1200" height="330" rx="24"/></clipPath>
+  </defs>
+  <g clip-path="url(#rounded)">
+    <rect width="1200" height="330" fill="url(#background)"/>
+    <rect width="1200" height="330" fill="url(#dots)"/>
+    <circle cx="963" cy="162" r="260" fill="url(#glow)"/>
+    <path d="M 0 328 C 260 275 405 340 620 294 S 1010 282 1200 222" fill="none" stroke="#47DBD2" stroke-opacity="0.14" stroke-width="2"/>
+    <rect x="64" y="57" width="178" height="28" rx="14" fill="#102B3C" stroke="#286878"/>
+    <circle cx="81" cy="71" r="4" fill="#5EEAD4"/>
+    <text x="95" y="76" fill="#B8E9EC" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700" letter-spacing="2">HELLO, WORLD</text>
+    <text x="64" y="162" fill="#F5F8FF" font-family="Arial, Helvetica, sans-serif" font-size="64" font-weight="700" letter-spacing="-2">Sujair Ibrahim</text>
+    <rect x="64" y="184" width="440" height="4" rx="2" fill="url(#accent)"/>
+    <text x="64" y="229" fill="#D3E1F5" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="400">Building useful intelligence.</text>
+    <text x="64" y="268" fill="#8EA7C2" font-family="Arial, Helvetica, sans-serif" font-size="15" letter-spacing="1">AGENTS  /  RESEARCH  /  APPLIED ML</text>
+    <g fill="none" stroke="#66DED9" stroke-width="1.4" stroke-opacity="0.35">
+      <path d="M 840 64 L 967 42 L 1082 88 L 1137 171 L 1043 251 L 915 276 L 802 211 Z"/>
+      <path d="M 840 64 L 915 276 M 967 42 L 1043 251 M 1082 88 L 802 211 M 1137 171 L 840 64 M 915 276 L 1082 88"/>
+      <circle cx="969" cy="158" r="105" stroke-dasharray="5 8" stroke-opacity="0.2"/>
+    </g>
+    <g fill="#0C2735" stroke="#6EE7F9" stroke-width="2">
+      <circle cx="840" cy="64" r="6"/><circle cx="967" cy="42" r="7"/><circle cx="1082" cy="88" r="6"/>
+      <circle cx="1137" cy="171" r="7"/><circle cx="1043" cy="251" r="7"/><circle cx="915" cy="276" r="6"/><circle cx="802" cy="211" r="6"/>
+    </g>
+    <circle cx="969" cy="158" r="40" fill="#143E4C" stroke="#6EE7F9" stroke-width="2"/>
+    <circle cx="969" cy="158" r="23" fill="#1C6672" opacity="0.6"/>
+    <path d="M 954 158 L 965 169 L 985 147" fill="none" stroke="#C6FFF6" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+</svg>
